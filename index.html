@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интернет-магазин </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header>
+        <div class="logo">
+            <img src="images/logo.webp" alt="Логотип">
+            <span>Интернет-магазин</span>
+        </div>
+        <div class="working-hours">
+            <p>Пн-Пт: 9:00 - 18:00</p>
+            <p>Сб-Вс: 10:00 - 16:00</p>
+            <p>Адрес: ул. Примерная, 123</p>
+        </div>
+         <!-- Иконка корзины-->
+        <div class="cart-icon" onclick="openCartModal()"><span class="img-cart">🛒</span> <span id="cart-count">0</span></div> 
+        
+    </header>
+
+    <!-- Основной контейнер -->
+    <div class="container">
+        <!-- Вертикальное меню -->
+        <div class="sidebar">
+            <ul class="menu">
+                <li><a href="#" onclick="toggleSubMenu('electronics')">Электроника</a>
+                    <ul id="electronics" class="submenu">
+                        <li><a href="#" onclick="filterCategory('Смартфоны')">Смартфоны</a></li>
+                        <li><a href="#" onclick="filterCategory('Ноутбуки')">Ноутбуки</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" onclick="toggleSubMenu('clothing')">Одежда</a>
+                    <ul id="clothing" class="submenu">
+                        <li><a href="#" onclick="filterCategory('Футболки')">Футболки</a></li>
+                        <li><a href="#" onclick="filterCategory('Джинсы')">Джинсы</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Основной контент -->
+        <div class="content">
+            <!-- Иконка корзины -->
+        <!-- <div class="cart-icon" onclick="openCartModal()">🛒 <span id="cart-count">0</span></div> -->
+            <!-- Поиск и сортировка -->
+            <div class="search-sort">
+                <input type="text" id="search" placeholder="Поиск товаров..." oninput="filterProducts()">
+                <select id="sort" onchange="sortProducts()">
+                    <option value="name_asc">По имени (А-Я)</option>
+                    <option value="name_desc">По имени (Я-А)</option>
+                    <option value="price_asc">По цене (по возрастанию)</option>
+                    <option value="price_desc">По цене (по убыванию)</option>
+                    <option value="rating_asc">По рейтингу (по возрастанию)</option>
+                    <option value="rating_desc">По рейтингу (по убыванию)</option>
+                    <option value="date_asc">По дате (сначала старые)</option>
+                    <option value="date_desc">По дате (сначала новые)</option>
+                </select>
+                <input type="number" id="minPrice" placeholder="Мин цена" oninput="filterProducts()">
+                <input type="number" id="maxPrice" placeholder="Макс цена" oninput="filterProducts()">
+            </div>
+
+            <!-- Список товаров -->
+            <div id="products" class="products"></div>
+
+            <!-- Пагинация -->
+            <div id="pagination" class="pagination"></div>
+        </div>
+
+        <!-- Иконка корзины
+        <div class="cart-icon" onclick="openCartModal()">🛒 <span id="cart-count">0</span></div> -->
+    </div>
+
+    <!-- Подвал сайта -->
+    <footer>
+        <div class="footer-content">
+            <p>© 2023 Интернет-магазин. Все права защищены.</p>
+            <!-- <img src="images/logo.webp" alt="Логотип"> -->
+        </div>
+    </footer>
+
+    <!-- Модальное окно корзины -->
+    <div id="cart-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeCartModal()">&times;</span>
+            <h2>Корзина</h2>
+            <div id="cart-items"></div>
+            <button onclick="placeOrder()">Оформить заказ</button>
+        </div>
+    </div>
+
+    <!-- Модальное окно товара -->
+    <div id="product-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeProductModal()">&times;</span>
+            <h2 id="product-modal-title"></h2>
+            <img id="product-modal-image" src="" alt="">
+            <p id="product-modal-description"></p>
+            <p id="product-modal-price"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

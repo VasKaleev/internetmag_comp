@@ -1,0 +1,242 @@
+[
+  {
+      "id": 1,
+      "name": "Смартфон Samsung Galaxy S21",
+      "category": "Смартфоны",
+      "price": 69990,
+      "rating": 4.5,
+      "date": "2023-01-15",
+      "image": "samsung_galaxy_s21.jpg",
+      "description": "Смартфон Samsung Galaxy S21 с экраном 6.2 дюйма, 128 ГБ памяти."
+  },
+  {
+      "id": 2,
+      "name": "Ноутбук Apple MacBook Air",
+      "category": "Ноутбуки",
+      "price": 89990,
+      "rating": 4.8,
+      "date": "2023-02-10",
+      "image": "macbook_air.jpg",
+      "description": "Ноутбук Apple MacBook Air с процессором M1, 8 ГБ ОЗУ, 256 ГБ SSD."
+  },
+  {
+      "id": 3,
+      "name": "Футболка мужская",
+      "category": "Футболки",
+      "price": 1990,
+      "rating": 4.2,
+      "date": "2023-03-05",
+      "image": "mens_tshirt.jpg",
+      "description": "Мужская футболка из хлопка, черного цвета."
+  },
+  {
+      "id": 4,
+      "name": "Джинсы Levi's 501",
+      "category": "Джинсы",
+      "price": 4990,
+      "rating": 4.6,
+      "date": "2023-04-20",
+      "image": "levis_501.jpg",
+      "description": "Джинсы Levi's 501, синие, прямого кроя."
+  },
+  {
+    "id": 5,
+    "name": "Смартфон Samsung Galaxy S25",
+    "category": "Смартфоны",
+    "price": 79990,
+    "rating": 4.7,
+    "date": "2024-01-15",
+    "image": "samsung_galaxy_s21.jpg",
+    "description": "Смартфон Samsung Galaxy S21 с экраном 6.2 дюйма, 128 ГБ памяти."
+},
+{
+  "id": 7,
+  "name": "Смартфон Samsung Galaxy S2",
+  "category": "Смартфоны",
+  "price": 79990,
+  "rating": 4.9,
+  "date": "2024-01-15",
+  "image": "samsung_galaxy_s21.jpg",
+  "description": "Смартфон Samsung Galaxy S21 с экраном 6.2 дюйма, 128 ГБ памяти."
+},
+{
+  "id": 8,
+  "name": "Смартфон Samsung Galaxy S21",
+  "category": "Смартфоны",
+  "price": 69990,
+  "rating": 4.5,
+  "date": "2023-01-15",
+  "image": "samsung_galaxy_s21.jpg",
+  "description": "Смартфон Samsung Galaxy S21 с экраном 6.2 дюйма, 128 ГБ памяти."
+},
+{
+  "id": 9,
+  "name": "Ноутбук Apple MacBook Air",
+  "category": "Ноутбуки",
+  "price": 89990,
+  "rating": 4.8,
+  "date": "2023-02-10",
+  "image": "macbook_air.jpg",
+  "description": "Ноутбук Apple MacBook Air с процессором M1, 8 ГБ ОЗУ, 256 ГБ SSD."
+},
+{
+  "id": 10,
+  "name": "Футболка мужская",
+  "category": "Футболки",
+  "price": 1990,
+  "rating": 4.2,
+  "date": "2023-03-05",
+  "image": "mens_tshirt.jpg",
+  "description": "Мужская футболка из хлопка, черного цвета."
+},
+{
+  "id": 11,
+  "name": "Джинсы Levi's 501",
+  "category": "Джинсы",
+  "price": 4990,
+  "rating": 4.6,
+  "date": "2023-04-20",
+  "image": "levis_501.jpg",
+  "description": "Джинсы Levi's 501, синие, прямого кроя."
+},
+{
+"id": 12,
+"name": "Смартфон Samsung Galaxy S25",
+"category": "Смартфоны",
+"price": 79990,
+"rating": 4.7,
+"date": "2024-01-15",
+"image": "samsung_galaxy_s21.jpg",
+"description": "Смартфон Samsung Galaxy S21 с экраном 6.2 дюйма, 128 ГБ памяти."
+},
+{
+"id": 13,
+"name": "Смартфон Samsung Galaxy S2",
+"category": "Смартфоны",
+"price": 79990,
+"rating": 4.9,
+"date": "2024-01-15",
+"image": "samsung_galaxy_s21.jpg",
+"description": "Смартфон Samsung Galaxy S21 с экраном 6.2 дюйма, 128 ГБ памяти."
+},
+{
+  "id": 14,
+  "name": "Смартфон Samsung Galaxy S21",
+  "category": "Смартфоны",
+  "price": 69990,
+  "rating": 4.5,
+  "date": "2023-01-15",
+  "image": "samsung_galaxy_s21.jpg",
+  "description": "Смартфон Samsung Galaxy S21 с экраном 6.2 дюйма, 128 ГБ памяти."
+},
+{
+  "id": 15,
+  "name": "Ноутбук Apple MacBook Air",
+  "category": "Ноутбуки",
+  "price": 89990,
+  "rating": 4.8,
+  "date": "2023-02-10",
+  "image": "macbook_air.jpg",
+  "description": "Ноутбук Apple MacBook Air с процессором M1, 8 ГБ ОЗУ, 256 ГБ SSD."
+},
+{
+  "id": 16,
+  "name": "Футболка мужская",
+  "category": "Футболки",
+  "price": 1990,
+  "rating": 4.2,
+  "date": "2023-03-05",
+  "image": "mens_tshirt.jpg",
+  "description": "Мужская футболка из хлопка, черного цвета."
+},
+{
+  "id": 17,
+  "name": "Джинсы Levi's 501",
+  "category": "Джинсы",
+  "price": 4990,
+  "rating": 4.6,
+  "date": "2023-04-20",
+  "image": "levis_501.jpg",
+  "description": "Джинсы Levi's 501, синие, прямого кроя."
+},
+{
+"id": 18,
+"name": "Смартфон Samsung Galaxy S25",
+"category": "Смартфоны",
+"price": 79990,
+"rating": 4.7,
+"date": "2024-01-15",
+"image": "samsung_galaxy_s21.jpg",
+"description": "Смартфон Samsung Galaxy S21 с экраном 6.2 дюйма, 128 ГБ памяти."
+},
+{
+"id": 19,
+"name": "Смартфон Samsung Galaxy S2",
+"category": "Смартфоны",
+"price": 79990,
+"rating": 4.9,
+"date": "2024-01-15",
+"image": "samsung_galaxy_s21.jpg",
+"description": "Смартфон Samsung Galaxy S21 с экраном 6.2 дюйма, 128 ГБ памяти."
+},
+{
+"id": 20,
+"name": "Смартфон Samsung Galaxy S21",
+"category": "Смартфоны",
+"price": 69990,
+"rating": 4.5,
+"date": "2023-01-15",
+"image": "samsung_galaxy_s21.jpg",
+"description": "Смартфон Samsung Galaxy S21 с экраном 6.2 дюйма, 128 ГБ памяти."
+},
+{
+"id": 21,
+"name": "Ноутбук Apple MacBook Air",
+"category": "Ноутбуки",
+"price": 89990,
+"rating": 4.8,
+"date": "2023-02-10",
+"image": "macbook_air.jpg",
+"description": "Ноутбук Apple MacBook Air с процессором M1, 8 ГБ ОЗУ, 256 ГБ SSD."
+},
+{
+"id": 22,
+"name": "Футболка мужская",
+"category": "Футболки",
+"price": 1990,
+"rating": 4.2,
+"date": "2023-03-05",
+"image": "mens_tshirt.jpg",
+"description": "Мужская футболка из хлопка, черного цвета."
+},
+{
+"id": 23,
+"name": "Джинсы Levi's 501",
+"category": "Джинсы",
+"price": 4990,
+"rating": 4.6,
+"date": "2023-04-20",
+"image": "levis_501.jpg",
+"description": "Джинсы Levi's 501, синие, прямого кроя."
+},
+{
+"id": 24,
+"name": "Смартфон Samsung Galaxy S25",
+"category": "Смартфоны",
+"price": 79990,
+"rating": 4.7,
+"date": "2024-01-15",
+"image": "samsung_galaxy_s21.jpg",
+"description": "Смартфон Samsung Galaxy S21 с экраном 6.2 дюйма, 128 ГБ памяти."
+},
+{
+"id": 25,
+"name": "Смартфон Samsung Galaxy S2",
+"category": "Смартфоны",
+"price": 79990,
+"rating": 4.9,
+"date": "2024-01-15",
+"image": "samsung_galaxy_s21.jpg",
+"description": "Смартфон Samsung Galaxy S21 с экраном 6.2 дюйма, 128 ГБ памяти."
+}
+]
