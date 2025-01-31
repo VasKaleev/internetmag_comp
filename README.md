@@ -1,1 +1,2 @@
-### https://vaskaleev.github.io/internetmag_ii_good1/
+### https://vaskaleev.github.io/internetmag_comp/
+
